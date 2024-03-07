@@ -1,0 +1,31 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Support\Http\ApiFormRequest;
+
+class {{ class }} extends ApiFormRequest
+{
+    public function rulesIndex(): array
+    {
+        return [
+            //
+        ];
+    }
+
+
+    public function rulesStore(): array
+    {
+        return [
+            //
+        ];
+    }
+
+
+    public function rulesUpdate(): array
+    {
+        return [
+            //
+        ];
+    }
+}
